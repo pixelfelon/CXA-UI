@@ -1,0 +1,26 @@
+/*
+cxa-ui.js - UI script for CXA UI web data framework.
+Copyright (c) 2016 James Rowley
+
+This file is part of CXA UI, which is licensed under the Creative Commons Attribution-NonCommercial 3.0 United States License.
+You should have received a copy of this license with CXA UI.
+If not, to view a copy of the license, visit https://creativecommons.org/licenses/by-nc/3.0/us/legalcode
+*/
+
+$(document).ready(CXAUI);
+
+var lastDrawer=false;
+
+function CXAUI(){
+	window.setTimeout(function(){$("#welcomebar").slideUp(300);},3000);
+	$(".drawer-handle").each(function(){
+		$(this).click(function(){
+			var sel="#d"+this.id.substring(2);
+			if(lastDrawer!=sel){
+				$(lastDrawer).slideUp();
+				lastDrawer=sel;
+			}
+			$(sel).slideToggle();
+		});
+	});
+}
