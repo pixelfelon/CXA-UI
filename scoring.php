@@ -1,3 +1,12 @@
+<!--
+scoring.php - Example page for CXA UI web data framework demo.
+Copyright (c) 2016 James Rowley
+
+This file is part of CXA UI, which is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License.
+You should have received a copy of this license with CXA UI.
+If not, to view a copy of the license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/us/legalcode
+-->
+
 <?php
 include('meta.php');
 ?>
