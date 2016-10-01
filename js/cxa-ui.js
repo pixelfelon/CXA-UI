@@ -23,4 +23,13 @@ function CXAUI(){
 			$(sel).slideToggle();
 		});
 	});
+	ttc=$('<div></div>').addClass('ttc').appendTo($("body"));
+	$(".hastip").each(function(){
+		$(this).mousemove(function(){
+			ttc.show().css("left",event.pageX+10).css("top",event.pageY).text($(this).attr("tip"));
+		});
+		$(this).mouseout(function(event){
+			ttc.hide();
+		});
+	});
 }
