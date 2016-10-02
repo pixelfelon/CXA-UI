@@ -2,7 +2,7 @@ CXA UI
 ======
 CXA UI is a lightweight, data-oriented frontend web framework. It includes the necessary style and structure components to rapidly build and maintain small, good-looking, mobile-friendly forms and control panels.
 
-CXA UI is not a complete drop in solution; it takes a bit of fiddling with. It just helps get you started with your webapp.
+CXA UI is not a complete drop in solution; it takes a bit of fiddling with. It just helps get you started with your webapp. Play around with the examples and templates to learn, as documentation is forthcoming.
 
 CXA (CompetiX Architecture) is a data-oriented webapp framework derived from CompetixCMS, and is available in multiple versions depending on how much and what framework you want.
 
