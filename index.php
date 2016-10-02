@@ -21,6 +21,9 @@ include('meta.php');
 				border-bottom: 1px solid #999;
 				padding-bottom: 8px;
 			}
+			ul{
+				margin: 2px 0px 6px 0px;
+			}
 		</style>
 	</head>
 	<body>

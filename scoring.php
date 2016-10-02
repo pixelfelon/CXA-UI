@@ -65,9 +65,9 @@ include('meta.php');
 			 --></div>
 			</div>
 			<div>
-				<div id="prevmatch" class="bottombutton noselect" onclick="prevMatch();">Prev</div>
-				<div id="savematch" class="bottombutton noselect" onclick="postCurrentMatch();">Save</div>
-				<div id="nextmatch" class="bottombutton noselect" onclick="nextMatch();">Next</div>
+				<div id="prevmatch" class="bottombutton tri-left noselect" onclick="prevMatch();">Prev</div>
+				<div id="savematch" class="bottombutton tri-center noselect" onclick="postCurrentMatch();">Save</div>
+				<div id="nextmatch" class="bottombutton tri-right noselect" onclick="nextMatch();">Next</div>
 			</div>
 			<div id="footer" class="loginbar"><?php cxa_footer() ?></div>
 		</div>
