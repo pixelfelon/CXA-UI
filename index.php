@@ -15,7 +15,7 @@ include('meta.php');
 		<title>CXA UI Demo - Landing Page</title>
 		<link rel="stylesheet" type="text/css" href="css/cxa-ui.css">
 		<link rel="icon" type="image/png" href="./img/favicon.ico" />
-		<meta name="viewport" content="width=device-width, initial-scale=0.5">
+		<meta name="viewport" content="width=device-width, initial-scale=0.75">
 		<style>
 			h3{
 				border-bottom: 1px solid #999;

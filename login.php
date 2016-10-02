@@ -36,9 +36,6 @@ if(!isset($loginerror)){
 					}
 					?>
 					<span class="logincenter">- or -</span>
-					<div class="loginbutton" onclick="window.location.assign('./kiosk-menu.php')">
-						Scoreboard Mode
-					</div>
 					<div class="loginbutton" onclick="window.location.assign('./register.php')">
 						Request Access
 					</div>
